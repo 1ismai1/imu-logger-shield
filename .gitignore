@@ -1,0 +1,26 @@
+# Altium auto-generated working folders
+History/
+Project Logs for */
+Project Outputs for */
+__Previews/
+
+# Altium temp / cache / backup files
+*.SchDocPreview
+*.PcbDocPreview
+*.PrjPcbVariants
+*.bak
+~$*
+.~lock*
+*.$$$
+Status Report.Txt
+
+# Old / scratch copies not used by the project
+Copy of *
+PCB2.PcbDoc
+PCB2.html
+PCB2.txt
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,11 @@
+# Altium design files are binary: never diff or change line endings
+*.SchDoc   binary
+*.PcbDoc   binary
+*.SchLib   binary
+*.PcbLib   binary
+*.IntLib   binary
+*.Cam      binary
+*.PrjPcb   -text
+*.zip      binary
+*.xlsx     binary
+*.png      binary
