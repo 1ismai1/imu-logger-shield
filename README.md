@@ -12,6 +12,12 @@ Firmware lives in a separate repo: **[imu-logger-stm32](https://github.com/1isma
 
 *Renders generated from the v1 Gerbers.*
 
+## Schematic
+
+![Schematic](docs/images/schematic.png)
+
+Full PDF (schematic + layout): [docs/IMU_Shield.pdf](docs/IMU_Shield.pdf)
+
 ## Status
 
 | Rev | Date | Status |
@@ -72,7 +78,7 @@ USART2 (PA2/PA3, D0/D1) is left free for the ST-Link virtual COM port.
 
 ```
 IMU_Shield.PrjPcb            Altium project (open this)
-Sheet2.SchDoc                Schematic
+IMU_Shield.SchDoc            Schematic
 PCB2_pre_autoroute.PcbDoc    PCB layout (footprints are stored inside it)
 CAMtastic*.Cam               Altium Gerber-viewer sessions used to check the outputs
 fabrication/v1/              Exactly what was sent to JLCPCB for v1
@@ -80,7 +86,8 @@ fabrication/v1/              Exactly what was sent to JLCPCB for v1
   IMU_Shield_BOM.xlsx / .csv   bill of materials with LCSC part numbers
   IMU_Shield_CPL.csv           pick-and-place (component positions and rotations)
 docs/
-  images/                      board renders
+  IMU_Shield.pdf               schematic + layout (no Altium needed)
+  images/                      schematic and board renders
   DRC_report_v1.html           Altium design rule check
 ```
 
