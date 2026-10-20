@@ -2,7 +2,7 @@
 
 A 2-layer shield PCB that plugs straight onto a **NUCLEO-F411RE** (STM32F411) and turns it into a self-contained motion logger: IMU over I²C, a microSD card over SPI, and a Seeed **XIAO ESP32-C3** as a wireless link.
 
-Designed in **Altium Designer**, fabricated and SMT-assembled by **JLCPCB**.
+Designed in **Altium Designer**. v1 is being fabricated and SMT-assembled by **JLCPCB** (see [Status](#status)).
 
 Firmware lives in a separate repo: **[imu-logger-stm32](https://github.com/1ismai1/imu-logger-stm32)** (bare-metal / register-level STM32, FreeRTOS, DMA, FatFS on exFAT).
 
@@ -79,7 +79,7 @@ USART2 (PA2/PA3, D0/D1) is left free for the ST-Link virtual COM port.
 ```
 IMU_Shield.PrjPcb            Altium project (open this)
 IMU_Shield.SchDoc            Schematic
-PCB2_pre_autoroute.PcbDoc    PCB layout (footprints are stored inside it)
+IMU_Shield.PcbDoc            PCB layout (footprints are stored inside it)
 CAMtastic*.Cam               Altium Gerber-viewer sessions used to check the outputs
 fabrication/v1/              Exactly what was sent to JLCPCB for v1
   IMU_Shield_Gerbers.zip       copper, mask, silk, paste, outline + drill
